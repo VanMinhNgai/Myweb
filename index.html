@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content ="ie=edge">
+        <title>Minh's Portfolio</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="menu-icon"></span>
+            </button>
+            <nav class="navbar">
+                <ul class="navbar_list">
+                    <li class="navbar_items"><a href="#home" class="navbar_link">Home</a></li>
+                    <li class="navbar_items"><a href="#aboutme" class="navbar_link">About Me</a></li>
+                    <li class="navbar_items"><a href="#exp" class="navbar_link">Experience</a></li>
+                    <li class="navbar_items"><a href="#skills" class="navbar_link">Skills</a></li>
+                    <li class="navbar_items"><a href="#edu" class="navbar_link">Education</a></li>
+                    <li class="navbar_items"><a href="#projects" class="navbar_link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Intro Section-->
+        <section class="intro" id="home">
+            <h1 class="section_title section_title--intro">
+                Hi, I am <br><strong>Van Minh Ngai</strong>
+            </h1>
+            <p class="section_sub section_sub--intro">Grad student</p>
+            <!--Add my imagine in here-->
+            <img src="img/57197455.png" alt="Author's picture" class="intro_img">
+        </section>
+
+        <!--About Me Section-->
+        <section class="about-me" id="aboutme">
+            <h2 class="section_title section_title--about">Who I am</h2>
+            <p class="section_sub section_sub--about">I'm a graduate student from University of Windsor</p>
+            <div class="about-me_body">
+                <p class="about-me-bio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, nobis soluta minus magni molestiae qui doloribus, molestias accusantium officia rem quibusdam est at aliquid unde obcaecati. Laboriosam minima quam reprehenderit.</p>
+            </div>
+            <img src="img/57197455.png" alt="My Portfolio picture" class="aboutme_img">
+        </section>
+
+        <!--Experience Section-->
+        <section class="experience" id="exp">
+            <h2 class="section_title section_title--experience">Work Experience</h2>
+            <p class="section_sub section_sub--experience">List of my personal Work Experience</p>
+            <div class="experience-list">
+                <div class = "experience-items">
+                    <h3 class="experience-items-header">Teaching Assistant at University of Windsor (May 2020- December 2021)</h3>
+                    <p class="experience-items-body">
+                        -Assisted in managing the Intro to Algorithms and Programming I (Summer 2020), Problem Solving and Information on the Internet(Summer 2021), and Key Concepts for End-Users (Fall 2020, Winter 2021, and Fall 2021) classes for 5 different semesters.
+                        <br>-Graded assignments and midterms.
+                        <br>-Held lab sessions and mentored over 100 students on any course materials and code review in the office hours.
+                        <br>-Proctored examinations.
+                    </p> 
+                </div>
+            </div>
+        </section>
+        <!--My Skills Section-->
+         <section class="my-skills" id ="skills">
+            <h2 class="section_title section_title--skills">My Skills</h2>
+            <div class="skills">
+                <div class = "skill">
+                    <h3>C#</h3>
+                </div> <!-- close skill column-->
+                <div class = "skill">
+                    <h3>Java</h3>
+                </div> <!-- close skill column-->
+                <div class = "skill">
+                    <h3>C</h3>
+                </div> <!-- close skill column-->
+            </div><!--close skills section-->
+            <a href="#projects" class="btn">See My Projects</a>
+        </section>
+        <!--Education Section-->
+        <section class="education" id="edu">
+            <h2 class="section_title section_title--education">My Education</h2>
+            <div class="education-list">
+                <div class = "education-items">
+                    <h3 class="education-items-header">University of Windsor</h3>
+                    <p class="education-items-body">
+                        B.C.S. (Honours) in Computer Science (September 2017 - December 2021).
+                    </p> 
+                    <ul class="Education--List">
+                        <li class="Education--list-items"><p>Cumulative Average: 84.68%</p></li>
+                        <li class="Education--list-items"><p>Major Average: 86%</p></li>
+                        <li class="Education--list-items"><p>Honours with <strong>Distinction</strong></p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--Project Section-->
+        <section class="projects-class" id="projects">
+            <h2 class="section_title section_title--project">My Project</h2>
+            <p class="section_sub section_sub--project">List of my personal project & group project</p>
+            <div class="projects-list">
+                <div class = "projects-items">
+                    <h3 class="projects-items-header">Simulation of Autonomous Vehicles Using the Unity Game Engine with an Emphasis on Localization</h3>
+                    <p class="projects-items-body">This project is aim to create an simulation of autonomous vehicles using Unity Engine and asset store. Follow the project link for more description on the project itself. This is an four member group project for the fourth year of project course COMP 4990.</p> <!--This is Project description in more detais-->
+                    <a href="https://github.com/liwaydank123/COMP-4990-Unity-1?organization=liwaydank123&organization=liwaydank123" class="btn btn-project" target="_blank">Github Link</a>
+                </div>
+                <div class = "projects-items">
+                    <h3 class="projects-items-header">Unity's Flappy Bird</h3>
+                    <p class="projects-items-body">This is an replication of the famous game mobile game Flappy Bird by using Unity Engine and coding in C#. This game can be play on PC.</p> <!--This is Project description in more detais-->
+                    <a href="https://github.com/liwaydank123/FlappyBird" class="btn btn-project" target="_blank">Github Link</a>
+                </div>
+                <div class = "projects-items">
+                    <h3 class="projects-items-header">Active COVID-19 Clinical Trials Tracker</h3>
+                    <p class="projects-items-body">This is an cross-platform mobile-app that tracks all active clinical trials related to the COVID-19 based on the offical information from WHO (World Health Organization). We used Flutter framework and Google Maps API to developed the Android version of the app. This is an three member group project that was submitted to HackDSC 2020.</p> <!--This is Project description in more detais-->
+                    <a href="https://devpost.com/software/active-covid-19-clinical-trials-tracker" class="btn btn-project" target="_blank">Devpost Link</a>
+                </div>
+                <div class = "projects-items">
+                    <h3 class="projects-items-header">3D Multiplayer game using Unity Engine</h3>
+                    <p class="projects-items-body">This is an multiplayer PC game featuring Capture The Flag mode. We developed this probject using Unity asset and Mirror Networking.</p> <!--This is Project description in more detais-->
+                </div>
+            </div>
+        </section>
+        <!--Footer Section-->
+        <footer class="footer">
+           <a href="mailto:vanminhngai@gmail.com" class="footer__link">vanminhngai@gmail.com</a> 
+            <ul class="social-list">
+                <li class="social-list-items">
+                    <a class="social-list-link" href="https://www.linkedin.com/in/van-minh-ngai-322b341a3/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social-list-items">
+                    <a class="social-list-link" href="https://github.com/liwaydank123" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+
+</html>
